@@ -11,6 +11,7 @@ import streamlit  as st
 import pandas as pd
 import numpy as np
 import pickle
+import sklearn
 
 
 with open("decision_tree.pkl", "rb") as f:
