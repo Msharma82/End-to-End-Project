@@ -14,7 +14,7 @@ import pickle
 import sklearn
 
 
-with open("decision_tree.pkl", "rb") as f:
+with open("rf.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.title("Decision Tree Classifier App")
